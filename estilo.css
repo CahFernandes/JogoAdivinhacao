@@ -1,0 +1,37 @@
+#mediaImage {
+    width: 300px;
+    height: 150px; /* Altura reduzida para mostrar a imagem cortada */
+    object-fit: cover; /* Ajusta a imagem dentro da área */
+    object-position: top; /* Mostra o topo da imagem inicialmente */
+    transition: height 0.5s ease; /* Animação ao mostrar a imagem completa */
+}
+
+body {
+    background-color: rgb(151, 153, 128);
+    font-family: 'Times New Roman', Times, serif;  
+    text-align: center;  
+    background-image: url("interrogacao.jpg");
+}
+
+p { color: white }
+
+img {
+    margin: auto;
+    display: block;
+}
+
+button {
+    /* text-align: center; */
+    margin: auto;
+    display: block;    
+    border-radius: 5px;
+    padding: 0.5em;
+    display: flex;   /* inicia o display flex */
+    align-items: center; /* alinha os itens na vertical */
+    justify-content: center; /* alinha os itens na horizontal */
+    width: 300px;
+}
+
+button:active {
+    background-color: rgb(130, 199, 140);
+}
